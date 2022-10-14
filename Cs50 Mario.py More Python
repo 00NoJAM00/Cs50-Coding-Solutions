@@ -4,13 +4,13 @@
 while True:
     try:
         n = int(input("Enter Height: "))
-        if n >= 1 or n <= 8:
+        if n >= 1 and n <= 8:
             break
-        elif n <= 0 or n >= 9:
+        elif n <= 0 and n >= 9:
             print("Please enter a number from 1 to 8!")
     except ValueError:
             print("Please enter a number!")
-
+            
 for i in range(n):
     print(" " * (n - 1 - i), end="")
     print("#" * (i + 1), end="")

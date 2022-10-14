@@ -1,0 +1,24 @@
+
+#dont need get_int import if you are using int(input())
+
+while True:
+    try:
+        n = int(input("Enter Height: "))
+        if n >= 1 or n <= 8:
+            break
+        elif n <= 0 or n >= 9:
+            print("Please enter a number from 1 to 8!")
+    except ValueError:
+            print("Please enter a number!")
+
+for i in range(n):
+    print(" " * (n - 1 - i), end="")
+    print("#" * (i + 1), end="")
+    print(" " *(2), end="")
+    print("#" *(i + 1), end="")
+    print(end="\n")
+
+#this isn't very straitforward for new people tbh, you went from for loops and if statements to just one for loop and print statements.
+
+
+

@@ -1,0 +1,7 @@
+from cs50 import get_string
+
+
+#Rember the first part of lecture 6! This was given!
+answer = get_string("Whats your name? ")
+print(f"Hello, {answer}")
+#You can also write this as print("Hello " + answer)

@@ -6,7 +6,7 @@ from cs50 import get_int
 #get input from user.
 while True:
     n = get_int("Enter Height: ")
-    if n >= 0 or n <= 8:
+    if n >= 1 or n <= 8:
         break
         
 def get_height():
